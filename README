@@ -1,0 +1,7 @@
+1. Deploy app and remember your `<app-url>`
+2. Create webhook for channel on Discord and copy `<webhook-url>`
+3. Create webhook on Heroku and use `https://<app-url>/api/heroku?discord=<webhook-url>` as the URL.
+
+Fror example:
+
+`https://very-cool-app.vercel.app/api/heroku?discord=https://discord.com/api/webhooks/00000/IOIO_Yawl7n1sOAHQ3U1`
