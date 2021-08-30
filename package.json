@@ -1,0 +1,24 @@
+{
+  "name": "heroku_discord_bot",
+  "version": "1.0.0",
+  "description": "1. Deploy app and remember your `<app-url>` 2. Create webhook for channel on Discord and copy `<webhook-url>` 3. Create webhook on Heroku and use `https://<app-url>/api/heroku?discord=<webhook-url>` as the URL.",
+  "main": "heroku.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibpoullain/heroku_discord_bot.git"
+  },
+  "author": "thibaut.poullain@ydrazil.fr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thibpoullain/heroku_discord_bot/issues"
+  },
+  "homepage": "https://github.com/thibpoullain/heroku_discord_bot#readme"
+}
